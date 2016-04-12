@@ -390,3 +390,8 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+
+.devicon{
+  font-size: 10rem;
+  padding: 10px;
+}
