@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Dosis', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: papayaWhip;
+  background-color: white;
   color: black;
 }
 hr.star-primary {
@@ -85,7 +85,7 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -193,7 +193,7 @@ section.success a.active {
   -moz-transition: all ease 0.5s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
@@ -398,4 +398,14 @@ footer .footer-below {
 .devicon{
   font-size: 10rem;
   padding: 10px;
+}
+
+.skills{
+  text-align: center;
+  padding: 35px;
+}
+
+.contact{
+font-family: "Dosis", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 25px;
 }
